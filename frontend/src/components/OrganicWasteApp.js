@@ -49,7 +49,8 @@ export default function OrganicWasteApp() {
     formData.append('file', selectedFile);
 
     try {
-      const res = await fetch('http://127.0.0.1:8000/describe-image', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+      const res = await fetch(`${apiUrl}/describe-image`, {
         method: 'POST',
         body: formData
       });
