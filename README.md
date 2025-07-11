@@ -7,8 +7,9 @@
 
 EcoWaste AI is an intelligent waste management application that helps users identify organic waste and provides eco-friendly disposal solutions using AI-powered image recognition.
 
-![EcoWaste AI](./images/app-demo.gif)
-
+<p align="center">
+  <img src="./images/app-demo.gif" alt="EcoWaste AI Demo" width="1500">
+</p>
 
 [👉 **Try EcoWaste AI Live**](https://ecowaste-ai-git-main-humeraraheels-projects.vercel.app/)
 
